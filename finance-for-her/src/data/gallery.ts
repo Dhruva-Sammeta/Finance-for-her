@@ -1,0 +1,16 @@
+export const galleryImages = [
+  { id: 1, src: '/images/img-1.jpg', alt: 'Workshop session' },
+  { id: 2, src: '/images/img-2.jpg', alt: 'Group learning' },
+  { id: 3, src: '/images/img-3.jpg', alt: 'Interactive session' },
+  { id: 4, src: '/images/img-4.jpg', alt: 'Community event' },
+  { id: 5, src: '/images/img-5.jpg', alt: 'Training session' },
+  { id: 6, src: '/images/img-6.jpg', alt: 'Group photo' },
+  { id: 7, src: '/images/img-7.jpg', alt: 'Financial literacy session' },
+  { id: 8, src: '/images/img-8.jpg', alt: 'Hands-on workshop' },
+  { id: 9, src: '/images/img-9.jpg', alt: 'Women empowerment' },
+  { id: 10, src: '/images/img-10.jpg', alt: 'Group portrait' },
+  { id: 11, src: '/images/img-11.jpg', alt: 'Training in classroom' },
+  { id: 12, src: '/images/img-12.jpg', alt: 'Presentation slide' },
+  { id: 13, src: '/images/img-13.jpg', alt: 'Community outreach' },
+  { id: 14, src: '/images/img-14.jpg', alt: 'Workshop close-up' },
+];

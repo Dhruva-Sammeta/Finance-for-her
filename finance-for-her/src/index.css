@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-navy: #25324B;
+  --color-lavender: #D8A8E2;
+  --color-lavender-light: #F2C8F2;
+  --color-green-light: #CDE6C1;
+  --color-soft-off-white: #FAFAF8;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  font-family: 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+    sans-serif;
+  margin: 0;
+  background: white;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Color utilities */
+.text-navy {
+  color: var(--color-navy);
+}
+
+.bg-navy {
+  background: var(--color-navy);
+}
+
+.text-lavender {
+  color: var(--color-lavender);
+}
+
+.bg-lavender {
+  background: var(--color-lavender);
+}
+
+.text-lavender-light {
+  color: var(--color-lavender-light);
+}
+
+.bg-lavender-light {
+  background: var(--color-lavender-light);
+}
+
+.text-green-light {
+  color: var(--color-green-light);
+}
+
+.bg-green-light {
+  background: var(--color-green-light);
+}
+
+.text-soft-off-white {
+  color: var(--color-soft-off-white);
+}
+
+.bg-soft-off-white {
+  background: var(--color-soft-off-white);
+}
+
+/* Images */
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* Links */
+a {
+  transition: all 0.3s ease;
+}
+
+/* Scroll animations utilities */
+.fade-in {
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Section padding */
+section {
+  scroll-margin-top: 80px;
+}

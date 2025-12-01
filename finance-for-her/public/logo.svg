@@ -1,0 +1,35 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer circle -->
+  <circle cx="100" cy="100" r="95" fill="white" stroke="#25324B" stroke-width="2"/>
+  
+  <!-- Inner green circle -->
+  <circle cx="100" cy="100" r="75" fill="#CDE6C1" stroke="#25324B" stroke-width="1.5"/>
+  
+  <!-- Black semi-circle for head -->
+  <path d="M 75 80 Q 75 60 100 60 Q 125 60 125 80 Z" fill="black"/>
+  
+  <!-- Lavender/pink silhouette -->
+  <g fill="#D8A8E2">
+    <!-- Head circle -->
+    <circle cx="100" cy="75" r="18"/>
+    
+    <!-- Dollar sign in head -->
+    <text x="100" y="82" font-size="24" font-weight="bold" text-anchor="middle" fill="white">$</text>
+    
+    <!-- Body -->
+    <ellipse cx="100" cy="115" rx="20" ry="25"/>
+    
+    <!-- Shoulders/arms -->
+    <rect x="70" y="105" width="60" height="15" rx="7"/>
+  </g>
+  
+  <!-- Text: FINANCE -->
+  <text x="100" y="30" font-size="18" font-weight="bold" text-anchor="middle" fill="#25324B" font-family="Arial, sans-serif">FINANCE</text>
+  
+  <!-- Dollar signs on sides -->
+  <text x="30" y="110" font-size="20" fill="#D8A8E2" font-family="Arial, sans-serif" text-anchor="middle">$</text>
+  <text x="170" y="110" font-size="20" fill="#D8A8E2" font-family="Arial, sans-serif" text-anchor="middle">$</text>
+  
+  <!-- Text: FOR HER -->
+  <text x="100" y="185" font-size="18" font-weight="bold" text-anchor="middle" fill="#25324B" font-family="Arial, sans-serif">FOR HER</text>
+</svg>
