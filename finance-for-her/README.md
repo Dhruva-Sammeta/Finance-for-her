@@ -80,7 +80,7 @@ src/
 
 ## 🚀 Deployment
 
-### Vercel 
+### Done on Vercel 
 
 
 - **QUICKSTART.md** - 5-minute setup guide
