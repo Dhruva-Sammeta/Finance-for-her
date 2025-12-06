@@ -1,21 +1,4 @@
-# Finance For Her — Production-Ready Website
 
-A modern, fully responsive, animation-enhanced website for the Finance For Her NGO. Built with React, TypeScript, Tailwind CSS, and Framer Motion.
-
-## ✨ Features
-
-✅ **Complete** - All 12 sections fully built and styled  
-✅ **Responsive** - Mobile-first design, works on all devices  
-✅ **Animated** - Smooth Framer Motion animations throughout  
-✅ **Fast** - Vite-powered, minimal dependencies, optimized  
-✅ **Customizable** - Easy-to-manage data files  
-✅ **Professional** - Modern design system with brand colors  
-✅ **Accessible** - Semantic HTML, keyboard navigation  
-✅ **Production Ready** - Deploy immediately  
-
-## 🚀 Quick Start
-
-### Prerequisites
 - Node.js 16+ and npm/yarn
 
 ### Installation
@@ -34,7 +17,6 @@ npm run build
 npm run preview
 ```
 
-## 📋 Site Sections
 
 1. **Header** - Sticky navigation with logo and mobile menu
 2. **Hero** - Compelling headline, tagline, CTA buttons, animated background
@@ -49,7 +31,7 @@ npm run preview
 11. **Contact** - Contact form and multiple contact methods
 12. **Footer** - Links, social media, copyright
 
-## 🎨 Design System
+## Design System:
 
 ### Theme Colors
 - **Navy** `#25324B` - Primary text, dark backgrounds
@@ -98,67 +80,32 @@ src/
 
 ## 🚀 Deployment
 
-### Vercel (Recommended)
-```bash
-npm install -g vercel
-vercel
-```
+### Vercel 
 
-### Netlify
-Drag `dist/` folder to [netlify.app](https://app.netlify.com/drop)
-
-### GitHub Pages
-```bash
-npm run build
-# Deploy dist/ to gh-pages branch
-```
-
-### Traditional Hosting
-```bash
-npm run build
-# Upload dist/ contents to your server
-```
-
-## 📚 Documentation
 
 - **QUICKSTART.md** - 5-minute setup guide
 - **README_DETAILED.md** - Complete customization guide
 - **VISUAL_GUIDE.md** - Design system and structure reference
 
-## 🎬 Animations
-
-Uses **Framer Motion** for:
-- Fade-in on page load
-- Scroll-triggered animations
-- Hover effects on cards
-- Animated background shapes
-- Smooth transitions (0.3-0.6s)
-
-## 📱 Responsive Design
-
-- **Mobile** < 640px
-- **Tablet** 640px - 1024px
-- **Desktop** > 1024px
-
-## 🛠️ Tech Stack
 
 - **Framework**: React 18 + TypeScript
 - **Styling**: Tailwind CSS 3
 - **Animations**: Framer Motion 10
 - **Build Tool**: Vite 5
+## Current build stats:
+  ```
+> finance_for_her@0.1.0 build
+> vite build
 
+The CJS build of Vite's Node API is deprecated. See https://vite.dev/guide/troubleshooting.html#vite-cjs-node-api-deprecated for more details.
+vite v5.4.21 building for production...
+✓ 342 modules transformed.
+dist/index.html                   0.50 kB │ gzip:  0.32 kB
+dist/assets/index-DaKUqz-A.css   27.65 kB │ gzip:  5.33 kB
+dist/assets/index-B8ZO124T.js   289.91 kB │ gzip: 91.03 kB
+✓ built in 2.12s
+```
 ## 📝 License
+- **MIT**
+Finance For Her. All rights reserved.
 
-© 2025 Finance For Her. All rights reserved.
-
-## 📧 Contact
-
-**Email**: hello@financeforher.org  
-**Instagram**: @finance_forher  
-**LinkedIn**: finance-for-her  
-
----
-
-**Ready to deploy!** 🚀
-
-For detailed instructions, see **QUICKSTART.md** or **README_DETAILED.md**.
