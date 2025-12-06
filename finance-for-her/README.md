@@ -107,5 +107,5 @@ dist/assets/index-B8ZO124T.js   289.91 kB │ gzip: 91.03 kB
 ```
 ## 📝 License
 - **MIT**
-Finance For Her. All rights reserved.
+- Finance For Her. All rights reserved.
 
